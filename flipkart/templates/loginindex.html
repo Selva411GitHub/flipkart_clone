@@ -1,0 +1,182 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="/static/flipkart.css">
+</head>
+<body>
+    
+    <nav class="nav-top">
+        <div class="nav-left">
+            <img src="/static/flipkart-logo.png" alt="">
+            <input type="text" placeholder="Search products,Brands and more">
+        </div>
+        <div class="nav-right">
+        
+            <h3><iconify-icon class="nav-icon" icon="iconoir:shop"></iconify-icon> &nbsp; Become a seller</h3>
+           
+            <div class="dropdown">
+            <a href="{{url_for('signin')}}"   class="dropbtn">  <h3> <iconify-icon class="nav-icon" icon="ph:user"></iconify-icon> &nbsp;
+            {{data.name}}   <iconify-icon icon="gridicons:dropdown"></iconify-icon></h3></a>
+                <div class="dropdown-content">
+                  <a href="{{url_for('logout')}}">Log out</a>
+                </div>
+              </div>
+              
+            <h3><iconify-icon class="nav-icon" icon="mdi:cart-outline"></iconify-icon> &nbsp;cart</h3>
+            <h3> <iconify-icon class="nav-icon" icon="pepicons-pencil:dots-y"></iconify-icon></h3>
+        </div>
+    </nav>
+
+
+
+    
+    <section class="index-section">
+    <nav class="nav-add    flex-div">     
+        <div><img src="/static/shirt.jpg" alt=""><p>Top offers</p></div>
+        <div><img src="/static/mobiletablets.webp" alt=""><p>Mobile &Tablets</p></div>
+        <div><img src="/static/electronic.jpg" alt=""><p>Electronics</p></div>
+        <div><img src="/static/tvappliance.jpg" alt=""><p>Tv&Appliiance</p></div>
+        <div><img src="/static/fashion.jpg" alt=""><p>Fashion </p></div>
+        <div><img src="/static/beauty.jpg" alt=""><p>Beauty</p></div>
+        <div><img src="/static/kitchen.jpg" alt=""><p>Home&Kitchen</p></div>
+        <div><img src="/static/furniture.jpg" alt=""><p>Furnitchers</p></div>
+        <div><img src="/static/flight.jpg" alt=""><p>Flights</p></div>
+        <div><img src="/static/grocery.jpg" alt=""><p>Grocery</p></div>
+    </nav>
+
+    <nav class="nav-add-slide ">
+        
+        <img src="/static/banner.jpeg" alt="">
+        
+    </nav>
+    <nav class="nav-bank">
+        <img src="/static/SBI-Card-Logo.png" alt="">
+    </nav>
+
+
+
+
+   <nav class="nav-products">
+    <h3>Best of Electronics</h3>
+    <div class="first-row            flex-div">
+   
+    <div>
+        <img src="/static/keybaord.png" alt="">
+        <p>Top selling Dell keybaord</p>
+        <p><b>From RS286</b></p>
+    </div>
+    <div>
+        <img src="/static/usb.jpg" alt="">
+        <p>Pendrives & usb</p>
+        <p><b>From RS146</b></p>
+    </div>
+    <div>
+        <img src="/static/projectors.jpg" alt="">
+        <p>Projector</p>
+        <p><b>From RS6686</b></p>
+    </div>
+    <div>
+        <img src="/static/sandisk extreme.jpg" alt="">
+        <p>San disk extreme portable</p>
+        <p><b>From RS5500</b></p>
+    </div>
+    <div><a href="{{url_for('loginpage')}}">
+        <img src="/static/smart wathchpng.webp" alt="">
+        <p>smart watch</p>
+        <p><b>From RS1000</b></p></a>
+    </div>
+    <div>
+        <img src="/static/flight.jpg" alt="">
+        <p>Indigo flights </p>
+        <p><b>RS1,286</b></p>
+    </div>
+</div>
+   </nav> 
+    
+
+   <nav class="nav-products3">
+    <h3>Beauty,Food,Toys & More</h3>
+    <div class="second-row            flex-div">
+   
+    <div>
+        <img src="/static/dry fruits.png" alt="">
+        <p>Dry fruits</p>
+        <p><b>Upto 75% off</b></p>
+    </div>
+    <div>
+        <img src="/static/cycle.jpg" alt="">
+        <p>PNon geared cycyle</p>
+        <p><b>Upto 45% off</b></p>
+    </div>
+    <div>
+        <img src="/static/tyres.jpg" alt="">
+        <p>Tyres</p>
+        <p><b>From 786</b></p>
+    </div>
+    <div>
+        <img src="/static/treadmiles.jpg" alt="">
+        <p>San disk extreme portable</p>
+        <p><b>From RS5500</b></p>
+    </div>
+    <div>
+        <img src="/static/musical toys.png" alt="">
+        <p>Musical toys</p>
+        <p><b>Under 499</b></p>
+    </div>
+    <div>
+        <img src="/static/puzzle.png " alt="">
+        <p>Puzzle & cubes</p>
+        <p><b>RS46</b></p>
+    </div>
+</div>
+   </nav>
+
+
+
+   <section  class="section2    flex-div">
+    <nav class="nav-products4">
+        <h3>Festive wear</h3>
+        <div class="flex-div"> 
+        <div>
+            <img src="/static/tshirt.jpg" alt="">
+            <p>Dry fruits</p>
+            <p><b>Upto 75% off</b></p>
+        </div>
+        <div>
+            <img src="/static/watch.jpg" alt="">
+            <p>PNon geared cycyle</p>
+            <p><b>Upto 45% off</b></p>
+        </div>
+    </div>
+
+    <div class="flex-div"> 
+        <div>
+            <img src="/static/track.jpg" alt="">
+            <p>Top selling stationary</p>
+            <p><b>From RS49</b></p>
+        </div>
+        <div>
+            <img src="/static/handbag.jpg" alt="">
+            <p>Tyres</p>
+            <p><b>From 786</b></p>
+        </div>
+    </div>  
+       </nav>
+       <section class="half-section" >
+        <img src="/static/mobile add.png" alt="">
+       </section>
+   </section>
+
+
+
+</section>
+
+
+
+
+
+</body>
+</html>

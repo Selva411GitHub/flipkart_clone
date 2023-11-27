@@ -1,0 +1,245 @@
+*{
+    font-family: sans-serif;
+    background-color:#f5f5f5;
+}
+img{
+    cursor: pointer;
+}
+
+.nav-top .nav-left{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-top .nav-left img{
+    height:2cm ;
+    width: 7cm;
+}
+.nav-top .nav-left input{
+    border: none;
+    background-color:rgb(190, 242, 252);
+    padding: 17px;
+    width: 65%;
+    border-radius: 8px;
+}
+.nav-top  .nav-right h3:hover{
+    position:relative;
+    color: grey;
+    background-color: rgb(160, 160, 255);
+}
+.nav-top .nav-right{
+    width: 45%;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+.nav-top .nav-right h3{
+    display: flex;
+    font-size:x-large;
+    text-decoration: none;
+}
+.nav-top .nav-right a{
+    color: black;
+    text-decoration: none;
+}
+.nav-top{
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.nav-top *{
+    background-color: white;
+   
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+.flex-div{
+display: flex;
+}
+
+.nav-add img{
+    height: 1.3cm;
+    width: 1.3cm;
+    border-radius: 50%;
+    padding:2px;
+    background-color: yellow;
+    border: 4px dashed orangered;
+    cursor: pointer;
+}
+.nav-add div{
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav-add *{
+    background-color: white;
+}
+.nav-add {
+    padding-top:10px;
+    align-items: center;
+    height: 23%;
+    margin-top: 15px;
+    background-color: white;
+    justify-content: space-evenly;
+    width: 99%;
+}
+.nav-add-slide{
+    margin-top:15px;
+    width: 100%;
+}
+.nav-add-slide img{
+    height: 26%;
+    width: 100%;
+}
+.nav-bank img{
+    height: 17%;
+    width: 100%;
+    cursor: pointer;
+}
+.nav-bank{
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+}
+.nav-products   div    img{
+    width: 100%;
+    height: auto;
+}
+
+
+.nav-products   div    img:hover{
+    width: 110%;
+    transition:.5s;
+    height: auto;
+}
+.nav-products3 div img:hover{
+    width: 110%;
+    transition:.5s;
+    height: auto;
+}
+.nav-products   div *,.nav-products  h3,div{
+    background-color: white;
+}
+.nav-products3  h3{
+    background-color: white;
+}
+.nav-products   div div{
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-color:darkgrey;
+}
+.nav-products   div:nth-child(6){
+   background-color:blue;
+    border: 20px solid blueviolet;
+    border-radius: 0%;
+    color: white;
+    z-index:2;
+}
+.nav-products   div:nth-child(6)    p   b,p{
+    background-color: blue;
+}
+.nav-products   div:nth-child(6)    p{
+    background-color: blue;
+}
+
+.nav-products,   .flex-div  div{
+    padding:15px ;
+}
+.nav-products3,   .flex-div  div{
+    padding:15px ;
+}
+.nav-products,.nav-products3{
+    margin: 15px 0px 15px 0px;
+    padding: 15px;
+    background-color: white;
+}
+.nav-products,.nav-top,.nav-add-slide,.nav-products3 ,.section2,.nav-add{
+    box-shadow: 0px 0px 2px;
+}
+.half section  img{
+    height: 100%;
+}
+.nav-products  div  a{
+    text-decoration: none;
+    color: black;
+}
+.first-row   div {
+    width:25%;
+}
+.first-row {
+    
+    width: 98%;
+    padding:10px ;
+}
+.second-row {
+    width: 98%;
+    padding: 10px;
+}
+.second-row   div {
+    width:25%;
+}
+.nav-products3   div    img{
+    width: 100%;
+    height: auto;
+}
+.nav-products3   div *,.nav-products2  h3,div{
+    background-color: white;
+}
+.nav-products3   div div{
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-color:darkgrey;
+}
+
+.nav-products4  div  img{
+    height: 30vh;
+    width: auto;
+}
+.section2   .nav-products4  h3,p,b{
+    background-color: white;
+}
+.section2  div  div{
+    margin: 10px;
+    border-radius:8px ;
+    border: 1px solid rgb(192, 192, 192);
+}
+.nav-products4{
+    background-color: white;
+}
+.section2 {
+    background-color: white;
+    height:auto;
+    width: 100%;
+}
+.section2  .half-section{
+    background-color: white;
+    padding:20px 0px 20px 0px ;
+}
+.section2  .half-section  img{
+    margin-top: 5%;
+    height:110vh ;
+    width: 120vh;
+}
+/* next page css */
